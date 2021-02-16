@@ -2,9 +2,10 @@
   "name": "coding-challenge-frontend",
   "version": "1.0.0",
   "description": "coding challenge ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/Legal-One/coding-challenge-frontend/issues"
   },
-  "homepage": "https://github.com/Legal-One/coding-challenge-frontend#readme"
+  "homepage": "https://github.com/Legal-One/coding-challenge-frontend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
 }
